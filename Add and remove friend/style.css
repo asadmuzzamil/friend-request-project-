@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Fix the box-sizing property */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: rgb(242, 244, 246);
+    display: flex;
+    flex-direction: column; /* Set the direction to column to stack elements */
+    align-items: flex-start; /* Align items to the left */
+    padding: 20px; /* Add some padding to the body */
+}
+
+#header {
+    background-color: #81a1cc; /* Facebook blue color */
+    padding: 10px;
+    border-radius: 10px;
+    width: 12%;
+    text-align: left;
+}
+
+#header h3 {
+    margin: 0;
+    padding: 0;
+    color: #fff; /* White text color */
+}
+
+#container {
+    width: 300px;
+    height: 400px;
+    background-color: #eeeff1; /* Facebook blue color */
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 2px;
+    margin-top: 20px;
+    border-style: groove;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+
+#container img {
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 7px;
+}
+
+#container #name{
+    margin-top: 5px;
+    margin-left: -110px;
+    font-size: larger;
+}
+
+#container .mutual {
+    display: flex;
+    align-items: center;
+    margin-left: -100px;
+    margin-top: 5px;
+}
+
+#container .mutual img {
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    margin-left: -23px;
+    margin-right: 18px; /* Add margin to separate the images */
+}
+
+#container .mutual h6 {
+    font-size: small;
+    color: rgb(152, 152, 152);
+    /* margin-right: -20px; */
+    margin-right: 0px; 
+    margin-left: -10px;
+}
+
+#btn-top{
+    margin-top: 100px;
+    background-color: #1877f2;
+    color: #fff;
+    border-radius: 7px;
+    font-size: 16px;
+    border: none;
+    padding: 5px;
+    width: 70%;
+    cursor: pointer;
+}
+#btn-bottem
+{
+    margin-bottom: 50px;
+    background-color: rgb(189, 188, 183);
+    border-radius: 7px;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    padding: 5px;
+    width: 70%;
+    margin-top: 4px;
+    cursor: pointer;
+}
